@@ -16,7 +16,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
+                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Vikku7079"
                     )
                 ]
             ]
@@ -33,7 +33,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
+                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Vikku7079"
                     )
                 ]
             ]
@@ -67,7 +67,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @TG_VC_BOT`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @AlinaMusixBot`**"
         )
         return
 
@@ -81,7 +81,7 @@ async def add_allbot(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
         await userbot.send_message(bot_username, f"/start")
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002120144597:
+            if dialog.chat.id == -1002423873703:
                 continue
             try:
 
